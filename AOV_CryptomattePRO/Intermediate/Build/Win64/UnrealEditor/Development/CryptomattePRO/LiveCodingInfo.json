@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CryptomattePRO.cpp.obj": [
+			"ABaseActorManager.cpp.obj",
+			"CryptomattePRO.cpp.obj",
+			"CryptomattePROBPLibrary.cpp.obj",
+			"CryptomattePROHandler.cpp.obj",
+			"CryptomattePROSetting.cpp.obj"
+		],
+		"Module.CryptomattePRO.gen.cpp.obj": [
+			"ABaseActorManager.gen.cpp.obj",
+			"CryptomattePRO.init.gen.cpp.obj",
+			"CryptomattePROBPLibrary.gen.cpp.obj",
+			"CryptomattePROSetting.gen.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "CryptomattePRO",
+	"Description": "Plugin that enables the use of custom cryptomatte pass with the MRQ",
+	"Category": "Rendering",
+	"CreatedBy": "GrandVasArt",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "CryptomattePRO",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen",
+			 "AdditionalDependencies": [
+			    "Engine",
+				"CoreUObject",
+                "PythonScriptPlugin",
+                "MovieRenderPipelineEditor",
+                "MovieRenderPipelineCore"
+			],
+			 "PublicDependencyModuleNames": [
+        "Core",
+        "CoreUObject",
+        "Engine"
+      ]
+		}
+	],
+
+	 "Plugins": [
+        {
+            "Name": "PythonScriptPlugin",
+            "Enabled": true
+        },
+        {
+            "Name": "MovieRenderPipeline",
+            "Enabled": true
+        }
+    ]
+}

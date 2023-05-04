@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-CryptomattePRO.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"G:\Unreal Projects\RenderPasses\Plugins\CryptomattePlugin\Intermediate\Build\Win64\CryptomattePluginEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.NoUndef.h.obj"
+"G:\Unreal Projects\RenderPasses\Plugins\CryptomattePlugin\Plugins\AOV_CryptomattePRO\Intermediate\Build\Win64\UnrealEditor\Development\CryptomattePRO\Module.CryptomattePRO.cpp.obj"
+"G:\Unreal Projects\RenderPasses\Plugins\CryptomattePlugin\Plugins\AOV_CryptomattePRO\Intermediate\Build\Win64\UnrealEditor\Development\CryptomattePRO\Module.CryptomattePRO.gen.cpp.obj"
+"G:\Unreal Projects\RenderPasses\Plugins\CryptomattePlugin\Plugins\AOV_CryptomattePRO\Intermediate\Build\Win64\UnrealEditor\Development\CryptomattePRO\Default.rc2.res"
+/OUT:"G:\Unreal Projects\RenderPasses\Plugins\CryptomattePlugin\Plugins\AOV_CryptomattePRO\Intermediate\Build\Win64\UnrealEditor\Development\CryptomattePRO\UnrealEditor-CryptomattePRO.lib"
